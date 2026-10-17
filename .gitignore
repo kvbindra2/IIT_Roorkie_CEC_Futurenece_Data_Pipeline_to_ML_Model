@@ -13,3 +13,7 @@ airflow.db
 .astro/*.local.yml
 .astro/*.local.yaml
 test_api.py 
+discardCode/
+# NammaMart (karamvir): run scratch files + warehouse (raw layer holds unmasked PII)
+include/staging/
+include/warehouse_karamvir.duckdb*

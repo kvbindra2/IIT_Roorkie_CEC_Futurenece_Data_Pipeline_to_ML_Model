@@ -1,5 +1,5 @@
 pandas
-duckdb
+duckdb>=1.4    # MERGE INTO (ELT incremental load) needs DuckDB 1.4+
 scikit-learn
 langgraph
 langchain
